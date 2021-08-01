@@ -13,6 +13,7 @@
 @import "components/screen-header.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 /* style에서는 대부분 글꼴이나 배경위주로 하자 */
 /* 다른 css들을 import해서 정리하여 마치 css목록 처럼만들자 */

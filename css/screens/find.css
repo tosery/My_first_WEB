@@ -49,3 +49,8 @@
 .open-chat__header span{
     opacity: 0.6;
 }
+
+.open-post__members img{
+    width: 375px;
+    height: 375px;
+}

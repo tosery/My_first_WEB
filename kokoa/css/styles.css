@@ -1,0 +1,28 @@
+/* 구글폰트에서 Open Sans폰트 가져오기 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "screens/login.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/user-components.css";
+@import "components/badge.css";
+
+/* Screens */
+@import "variables.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+
+/* style에서는 대부분 글꼴이나 배경위주로 하자 */
+/* 다른 css들을 import해서 정리하여 마치 css목록 처럼만들자 */
+body{
+    color: #2e363e;
+    font-family: "Open Sans", sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    height: 200vh;
+}
+
+.main-screen{
+    padding: 0px var(--horizontal-space);
+}

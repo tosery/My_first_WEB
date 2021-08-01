@@ -1,0 +1,42 @@
+.nav{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 10%;
+    /* 다음은 마법의 한 줄 패딩으로 마지막 아이콘이 안보이는데 이걸 해결 */
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.2);
+}
+.nav__list{
+    
+    /* 이 부분은 position: fixed의 영향을 받는다.*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__a{
+    color: #2e363e;
+    /* position absolute는 가까운 relative의 아빠가 됨 */
+    position: relative;
+}
+
+.nav__notification{
+/* 여기 내용 일부는 뱃지로 감 */
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.nav__notification2{
+    background-color: tomato;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 6px;
+    height: 6px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+
+}

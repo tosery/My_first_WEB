@@ -1,6 +1,8 @@
 :root{
     --yellow: #fae100;
     /* yellow 색상을 새롭게 정의함 */
+    --myblue: #65c2df;
+    /* blue색상 새롭게 정의함 */
     --horizontal-space: 25px;
     /* Friends.html에서 Friends라인에 맞춰주기 */
     --main-border: 1px solid rgba(0,0,0,0.2)

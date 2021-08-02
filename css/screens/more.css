@@ -4,7 +4,7 @@
     }
     25% {
         transform: translate(-50px);
-        transform: scale(2);
+        transform: scale(1.5);
         border-radius: 25%;
     }
     50% {
@@ -25,7 +25,7 @@
     background: conic-gradient(#8b22ff 0% 10%, #ffc33b 10% 60%, #21f3d6 60% 100%);
     border-radius: 50%;
     transition: transform 1s ease-in-out;
-    animation: superSexyCoinFlip 5s ease-in-out;
+    animation: superSexyCoinFlip 5s infinite ease-in-out;
 }
 
 .chart1:hover{

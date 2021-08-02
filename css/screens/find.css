@@ -31,7 +31,7 @@
 }
 
 .recommended-find span{
-    margin: 100px 0;
+    margin: 50px 0;
     display: block;
     text-align: center;
     font-size:18px;
@@ -48,6 +48,12 @@
 
 .open-chat__header span{
     opacity: 0.6;
+}
+
+.open-post__members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .open-post__members img{

@@ -52,11 +52,11 @@
 }
 
 #login-form input:focus{
-    border-color: var(--yellow);
+    border-color: var(--myblue);
 }
 
 #login-form input[type="submit"]{
-    background-color: var(--yellow);
+    background-color: var(--myblue);
     cursor: pointer;
     /* padding은 상하px 좌우px */
     padding: 20px 0px;

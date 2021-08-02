@@ -60,3 +60,7 @@
     width: 375px;
     height: 375px;
 }
+
+.open-post__title{
+    margin-bottom: 10px;
+}

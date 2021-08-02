@@ -28,6 +28,19 @@
 .recommended-find__title{
     font-size: 12px;
     color: rgba(0,0,0,0.3);
+    counter-increment: rint;
+}
+
+.recommended-find__title::before{
+    content: counter(rint) ".";
+}
+
+.recommended-find__title::after{
+    content:" - " attr(data-page) "page";
+}
+
+.recommended-find__title::first-letter{
+    font-size: 3em;
 }
 
 .recommended-find span{

@@ -19,17 +19,15 @@
 
 .screen-header__badge{
     background-color: tomato;
-    display: inline flex;
-    /* justify-content: center;
-    align-items: center; */
+    display: flex;
     width: 6px;
     height: 6px;
     border-radius: 15px;
     position: absolute;
-    right: 15px;
-    top: 50px;
+    right: -2px;
+    top: -8px;
 }
 
-/* .fa-cog{
+.screen-header__icons{
     position: relative;
-} */
+}

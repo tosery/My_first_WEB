@@ -6,39 +6,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to kokoa talk</title>
+    <title>Welcome to jujua talk</title>
 </head>
 
 <body>
     <script src="app.js"></script>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span>20:10</span>
-            <i class="fas fa-wifi"></i>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>20:10</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class = "status-bar__column">
+                <span>No Service</span>
+            </div>
+            <div class = "status-bar__column">
+                <span>99%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
         </div>
-        <div class = "status-bar__column">
-            <span>No Service</span>
-        </div>
-        <div class = "status-bar__column">
-            <span>99%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
-    </div>
+        
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to My Website</h1>
+            <h2 class="welcome-header__title__ko">개인 사이트에 오신 것을 환영합니다.</h2>
+            <p class="welcome-header__text__ko">웹서버가 없으므로 로그인 누르세요^^</p>
+        </header>
     
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to My Website</h1>
-        <h2 class="welcome-header__title__ko">개인 사이트에 오신 것을 환영합니다.</h2>
-        <p class="welcome-header__text__ko">웹서버가 없으므로 로그인 누르세요^^</p>
-    </header>
+        <form action="friends.html" method="get" id="login-form">
+            <input type="text" placeholder="Email or phone number"/>
+            <input type="password" placeholder="password" />
+            <input type="submit" value="Log In"/>
+            <a href="#">Find jujua Accout or Password</a>
+        </form>
 
-    <form action="friends.html" method="get" id="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="password" />
-        <input type="submit" value="Log In"/>
-        <a href="#">Find kokoa Accout or Password</a>
-    </form>
-
+        <aside class="myanimation">
+            <div class="myanimation__transition">
+                <span class="chart1"></span>
+            </div>
+        </aside>
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
     </script>
 </body>

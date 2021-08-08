@@ -5,7 +5,6 @@
     padding: var(--horizontal-space);
     padding-top: 50px;
     margin-bottom: 10px;
-    /* position: fixed; */
 }
 
 .screen-header__title{
@@ -14,7 +13,7 @@
 }
 
 .screen-header__icons span{
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .screen-header__badge{

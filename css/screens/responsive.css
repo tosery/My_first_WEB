@@ -18,7 +18,7 @@ body{
         justify-content: center;
         width: 320px;
         height: 214px;
-        padding: var(--horizontal-space);
+        padding: 0px var(--horizontal-space);
     }
 }
 @media screen and (min-width: 900px) and (max-width: 1200px){
@@ -61,7 +61,7 @@ body{
     .more__aside-thanks{
         display: flex;
         justify-content: center;
-        padding: var(--horizontal-space);
+        padding: 0px var(--horizontal-space);
     }
 /* z인덱스를 해줘야 메뉴가 눌러진다. */
     .nav{
@@ -109,7 +109,7 @@ body{
     .more__aside-thanks{
         display: flex;
         justify-content: center;
-        padding: var(--horizontal-space);
+        padding: 0px var(--horizontal-space);
     }
     /* z인덱스를 해줘야 메뉴가 눌러진다. */
     .nav{

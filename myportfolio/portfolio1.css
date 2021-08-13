@@ -1,0 +1,37 @@
+.fieldset__personal__legend__form-sexlabel{
+    display: flex;
+    flex-direction: row;
+}
+.fieldset__personal__legend__form-email_agreelabel{
+    display: flex;
+    flex-direction: row;
+}
+
+.fieldset__personal__legend__form-hobbydiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.fieldset__personal{
+    position: relative;
+    width: 640px;
+    padding: 10px;
+    border: solid 2px;
+}
+.fieldset__personal-masterbox{
+    position:relative;
+}
+#submit{
+    position:absolute;
+    bottom: -30px;
+}
+#reset{
+    position: absolute;
+    bottom:-30px;
+    left: 50px;
+}
+
+.fieldset__personal__legend{
+    font-size: 25px;
+    font-weight: 600;
+}

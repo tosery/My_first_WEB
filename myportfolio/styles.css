@@ -1,0 +1,14 @@
+/* 구글폰트에서  open sans가져오기 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+
+/* 포트폴리오1 */
+@import "portfolio1.css";
+
+/* 포트폴리오2 */
+@import "portfolio2.css";
+
+body{
+    color: #2e363e;
+    font-family: "Open Sans", sans-serif;
+}

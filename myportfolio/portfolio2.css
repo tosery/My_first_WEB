@@ -1,0 +1,77 @@
+/* 모든 이미지(빨간상자+사진)관련 속성 */
+.portfolio2__contentPane-allImg{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+/* 빨간상자 속성 */
+.portfolio2__contentPane-redbox{
+    display: flex;
+}
+
+.portfolio2__contentPane-eachRedBox{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    margin: 10px;
+}
+/* 빨간상자에는 클래스를 두개 주었고, 각각의 상자에 개별 속성을 줄 수 있다. */
+.portfolio2__contentPane-eachRedBox.num1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.portfolio2__contentPane-eachRedBox.num2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* 이미지 속성 */
+.portfolio2__contentPane-img{
+    width: 320px;
+    height: 213px;
+    opacity: 0.8;
+}
+
+/* 텍스트 속성 */
+.portfolio2__contentPane-text{
+    display: static;
+}
+/* 675px 이상에서는 줄이 위로 올라옴 */
+@media screen and (min-width: 675px) {
+    .portfolio2__contentPane-allImg{
+        float: left;
+        width: 650px;
+    }
+}
+/* 674px 이하에서는 이미지와 빨간상자가 정사각형처럼 뭉처짐 */
+@media screen and (min-width: 406px) and (max-width: 674px) {
+    .portfolio2__contentPane-allImg{
+        float: left;
+        width: 370px;
+    }
+}
+/* 405px이하에서는 빨간상자가 세로정렬하고 줄이 올라옴 */
+@media screen and (max-width: 405px){
+    .portfolio2__contentPane-allImg{
+        flex-wrap: initial;
+        display: inline;
+        float: initial;
+        border: none;
+    }
+    .portfolio2__contentPane-redbox{
+        flex-direction: column;
+        float: left;
+    }
+    .portfolio2__contentPane-imgbox{
+        float: left;
+    }
+}

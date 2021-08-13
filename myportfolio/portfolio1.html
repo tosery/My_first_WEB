@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 기본적으로 BEM CSS아키텍처. 라벨은 예외 -->
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>개인 정보 입력</title>
+</head>
+<body>
+    <div class="fieldset__personal-masterbox">
+        <fieldset class="fieldset__personal">
+            <legend class="fieldset__personal__legend">개인 정보 입력</legend>
+                <form class="fieldset__personal__legend__form">
+                    <div>
+                    <label for="first-name">아 이 디: </label>
+                    <input id="first-name" required placeholder ="ID" type="text">
+                    <input id = "IDcheck" type="button" value="ID중복검사" />
+                    </div><br>
+                    <div>
+                    <label for="last-name">생년월일: </label>
+                    <input id="last-name" required placeholder ="연도-월-일" type="date">
+                    </div><br>
+                    <div class = "fieldset__personal__legend__form-sexlabel">
+                        <label class="form__label" for="sex">성 별: </label>
+                        <div id ="sex">
+                            <input id = "radio" type="radio" name="sex" value="mal" checked>
+                            <label for="radio">남자</label>
+                            <input id = "radio1" type="radio" name="sex" value="female">
+                            <label for="radio1">여자</label>
+                        </div>
+                    </div><br>
+                    <div>
+                        <label for="e-mail">E-mail: </label>
+                        <input id="e-mail" required placeholder ="e-mail" type="email">
+                    </div><br>
+                    <div class = "fieldset__personal__legend__form-email_agreelabel">
+                        <label class="form__label" for="e-mail_agree">메일수신: </label>
+                        <div id ="e-mail_agree">
+                            <input id = "radio_email" type="radio" name="email" value="agree" checked>
+                            <label for="radio_email">수신동의</label>
+                            <input id = "radio_email2" type="radio" name="email" value="disagree">
+                            <label for="radio_email2">수신거부</label>
+                        </div>
+                    </div><br>
+                    <div class="fieldset__personal__legend__form-cellphone">
+                        <label for="cell_phone">핸드폰: </label>
+                        <select id="cell_phone">
+                            <option>010</option>
+                            <option>011</option>
+                            <option>016</option>
+                            <option>019</option>
+                        </select>
+                        - <input type="number">
+                        - <input type="number">
+                    </div><br>
+                    <div>
+                        <label for="job">직업: </label>
+                        <select id="job">
+                            <option>학생</option>
+                            <option>직장인</option>
+                            <option>무직</option>
+                        </select>
+                    </div><br>
+                    <div class="fieldset__personal__legend__form-hobbydiv">
+                        <label for="hobbydiv">취미: </label>
+                        <div id = "hobbydiv">
+                            <input type="checkbox" id="hobby1">
+                            <label for="hobby1">쇼핑</label>
+                            <input type="checkbox" id="hobby2">
+                            <label for="hobby2">인터넷</label>
+                            <input type="checkbox" id="hobby3">
+                            <label for="hobby3">음악감상</label>
+                            <input type="checkbox" id="hobby4">
+                            <label for="hobby4">독서</label>
+                            <input type="checkbox" id="hobby5">
+                            <label for="hobby5">스포츠</label>
+                        </div>
+                    </div><br>
+                    자기소개: <textarea name="" id="textarea" cols="55" rows="5"></textarea>
+                </form><br>
+            </fieldset>
+            <input id = "submit" type="submit" value="등록" />
+            <input id = "reset" type="reset" value="초기화" />
+        </div>
+</body>
+</html>
